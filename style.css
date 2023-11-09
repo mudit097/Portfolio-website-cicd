@@ -1,0 +1,131 @@
+/* Font Import */
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap";
+
+/* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styling */
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* General Container */
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive Image */
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Paragraph Styling */
+p {
+    color: #333;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+/* Call-to-action Button */
+.cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: #20cbf1;
+    border: 2px solid #20cbf1;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: 0.3s ease;
+}
+
+.cta:hover {
+    color: #20cbf1;
+    background-color: white;
+}
+
+/* Brand Name */
+.brand h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.brand h1 span {
+    color: #20cbf1;
+}
+
+/* Header Styling */
+#header {
+    /* Your header styles go here */
+}
+
+/* Hero Section */
+#hero {
+    /* Your hero section styles go here */
+}
+
+/* Services Section */
+#services {
+    /* Your services section styles go here */
+}
+
+/* Projects Section */
+#projects {
+    /* Your projects section styles go here */
+}
+
+/* About Section */
+#about {
+    /* Your about section styles go here */
+}
+
+/* Contact Section */
+#contact {
+    /* Your contact section styles go here */
+}
+
+/* Footer Styling */
+#footer {
+    /* Your footer styles go here */
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (min-width: 768px) {
+    /* Styles for tablets and larger screens */
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Styles for desktop screens */
+}
